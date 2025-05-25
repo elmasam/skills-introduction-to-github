@@ -24,8 +24,14 @@ body {
             font-weight: bolder;
             color: white;
             font-size:larger;
-        
-
+        }
+        #list {
+            display: none; /* Text is hidden by default */
+            margin-top: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            color: white;
+            font-size:larger;
         }
 
         button {
@@ -48,7 +54,7 @@ button:hover {
 </h1>
     <button onclick="toggleText()">HIHI &#x1F497;</button>
     <p id="text">Three days and three words to describe my feelings for you
-        <ul>
+        <ul id="list">
           <li>I</li>
           <li>LOVE</li>
           <li>YOU</li>
